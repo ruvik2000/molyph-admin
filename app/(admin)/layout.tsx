@@ -77,6 +77,12 @@ export default async function AdminLayout({
               >
                 Vendors
               </Link>
+              <Link
+                href="/interests"
+                className="block rounded-md px-3 py-2 text-slate-200 hover:bg-slate-800/80 hover:text-slate-50"
+              >
+                Interests
+              </Link>
             </nav>
           </aside>
 

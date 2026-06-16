@@ -83,6 +83,12 @@ export default async function AdminLayout({
               >
                 Interests
               </Link>
+              <Link
+                href="/waitlist"
+                className="block rounded-md px-3 py-2 text-slate-200 hover:bg-slate-800/80 hover:text-slate-50"
+              >
+                Waitlist
+              </Link>
             </nav>
           </aside>
 

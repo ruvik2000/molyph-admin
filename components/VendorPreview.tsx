@@ -93,8 +93,8 @@ export default function VendorPreview({ data }: { data: VendorPreviewData }) {
             </div>
           </div>
 
-          {/* Profile head */}
-          <div className="-mt-11 flex flex-col items-center px-5">
+          {/* Profile head — relative z-10 so the avatar paints above the (positioned) banner */}
+          <div className="relative z-10 -mt-11 flex flex-col items-center px-5">
             <div className="mb-3 h-[84px] w-[84px] rounded-full p-[3px]" style={{ background: '#09001E' }}>
               {data.logoUrl ? (
                 // eslint-disable-next-line @next/next/no-img-element
